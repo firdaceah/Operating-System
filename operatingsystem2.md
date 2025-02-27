@@ -7,7 +7,7 @@ NRP: 3124521002
 Class: 1 TI A 
 
 ## Practice Exercises
-1.1 What are the three main purposes of an operating system?
+#### 1.1 What are the three main purposes of an operating system?
 
 Answer:
 
@@ -25,10 +25,7 @@ of the execution of user programs to prevent errors and improper use
 of the computer, and (2) management of the operation and control
 of I/O devices.
 
-1.2 We have stressed the need for an operating system to make efficient use
-of the computing hardware. When is it appropriate for the operating
-system to forsake this principle and to “waste” resources? Why is such
-a system not really wasteful?
+#### 1.2 We have stressed the need for an operating system to make efficient use of the computing hardware. When is it appropriate for the operating system to forsake this principle and to “waste” resources? Why is such a system not really wasteful?
 
 Answer:
 
@@ -36,8 +33,7 @@ Single-user systems should maximize use of the system for the user. A
 GUI might “waste” CPU cycles, but it optimizes the user’s interaction
 with the system.
 
-1.3 What is the main difficulty that a programmer must overcome in writing
-an operating system for a real-time environment?
+#### 1.3 What is the main difficulty that a programmer must overcome in writing an operating system for a real-time environment?
 
 Answer:
 
@@ -48,10 +44,7 @@ is running. Therefore when writing an operating system for a real-time
 system, the writer must be sure that his scheduling schemes don’t allow
 response time to exceed the time constraint.
 
-1.4 Keeping in mind the various definitions of operating system, consider
-whether the operating system should include applications such as Web
-browsers and mail programs. Argue both that it should and that it should
-not, and support your answers.
+#### 1.4 Keeping in mind the various definitions of operating system, consider whether the operating system should include applications such as Web browsers and mail programs. Argue both that it should and that it should not, and support your answers.
 
 Answer:
 
@@ -72,8 +65,7 @@ kernel are offset by security vulnerabilities
 (3) it leads to a bloated
 operating system.
 
-1.5 How does the distinction between kernel mode and user mode function
-as a rudimentary form of protection (security) system?
+#### 1.5 How does the distinction between kernel mode and user mode function as a rudimentary form of protection (security) system?
 
 Answer:
 
@@ -84,7 +76,7 @@ is also possible only when the CPU is in kernel mode. Consequently, the
 CPU has very limited capability when executing in user mode, thereby
 enforcing protection of critical resources.
 
-1.6 Which of the following instructions should be privileged?
+#### 1.6 Which of the following instructions should be privileged?
 
 a. Set value of timer.
 
@@ -108,10 +100,7 @@ The following operations need to be privileged: Set value of timer, clear
 memory, turn off interrupts, modify entries in device-status table, access
 I/O device. The rest can be performed in user mode.
 
-1.7 Some early computers protected the operating system by placing it in
-a memory partition that could not be modified by either the user job
-or the operating system itself. Describe two difficulties that you think
-could arise with such a scheme.
+#### 1.7 Some early computers protected the operating system by placing it in a memory partition that could not be modified by either the user job or the operating system itself. Describe two difficulties that you think could arise with such a scheme.
 
 Answer:
 
@@ -120,8 +109,7 @@ accounting information, and so on) would have to be stored in or passed
 through unprotected memory and thus be accessible to unauthorized
 users.
 
-1.8 Some CPUs provide for more than two modes of operation. What are
-two possible uses of these multiple modes?
+#### 1.8 Some CPUs provide for more than two modes of operation. What are two possible uses of these multiple modes?
 
 Answer:
 
@@ -141,8 +129,7 @@ to run. This would mean that USB devices could be serviced without
 having to switch to kernel mode, thereby essentially allowing USB device
 drivers to run in a quasi-user/kernel mode.
 
-1.9 Timers could be used to compute the current time. Provide a short
-description of how this could be accomplished.
+#### 1.9 Timers could be used to compute the current time. Provide a short description of how this could be accomplished.
 
 Answer:
 
@@ -154,10 +141,7 @@ number of interrupts it has received thus far. It could then repeat this
 process of continually setting timer interrupts and updating its local
 state when the interrupts are actually raised.
 
-1.10 Give two reasons why caches are useful. What problems do they solve?
-What problems do they cause? If a cache can be made as large as the
-device for which it is caching (for instance, a cache as large as a disk),
-why not make it that large and eliminate the device?
+#### 1.10 Give two reasons why caches are useful. What problems do they solve? What problems do they cause? If a cache can be made as large as the device for which it is caching (for instance, a cache as large as a disk), why not make it that large and eliminate the device?
 
 Answer:
 
@@ -176,8 +160,7 @@ component retains its data when electricity is removed, the cache must
 retain data as well), and (b) the cache is affordable, because faster storage
 tends to be more expensive.
 
-1.11 Distinguish between the client–server and peer-to-peer models of
-distributed systems.
+#### 1.11 Distinguish between the client–server and peer-to-peer models of distributed systems.
 
 Answer:
 
